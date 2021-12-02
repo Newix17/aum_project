@@ -6,8 +6,10 @@ html{
 }
 
 #banner{
-    background-image: url(../medias/images/banner.jpg);
-}
+    background-image: url(../medias/images/banner.png);
+    background-position: center;
+    background-size: cover;
+ }
 
 header{
     display:grid;
