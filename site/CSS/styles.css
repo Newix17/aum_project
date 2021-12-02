@@ -5,6 +5,9 @@ html{
     font-weight: 200;
 }
 
+#banner{
+    background-image: url(../medias/images/banner.jpg);
+}
 
 header{
     display:grid;
