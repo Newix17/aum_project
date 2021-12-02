@@ -1,3 +1,9 @@
+body{
+    background-image: url(../medias/images/fond.jpg);
+    color: white;
+}
+
+
 header{
     display:grid;
     grid-template-columns: 15% 1fr 15%;
