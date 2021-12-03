@@ -5,6 +5,9 @@ html{
     font-weight: 200;
 }
 
+/*==========================
+Haut de page
+==========================*/
 header{
     display:flex;
     justify-content: space-between;
@@ -19,8 +22,8 @@ header{
     align-content: center;
 }
 #logo{
-    height: 200px;
-    margin: 20px;
+    height: 150px;
+    margin: 10px;
 }
 
 #place_titre{
@@ -30,13 +33,17 @@ header{
     margin-left:20px;
 }
 
+
+/*=================
+Titre
+=================*/
 h1{
    font-style: italic; 
    font-size: 50px;
 }
 #h1_thin{
     font-style:normal;
-    font-size: 50px;
+    font-size: 45px;
 }
 #h1com{
     font-style:normal;
@@ -52,10 +59,21 @@ h1{
     margin-left:20px;
 }
 
-ul{
+/* ============================
+Début du menu <nav> ID="menu"
+===============================*/
+
+#menu{
     display:flex;
     justify-content: space-evenly;
-    list-style-type: none;
+    background-color: rgb(250, 168, 16, 0.5);
+    margin-top:2px;
+    height: 30px;
+    align-content: center;
+}
+
+a{
+    color:white;
 }
 
 section{
