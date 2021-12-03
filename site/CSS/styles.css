@@ -24,6 +24,9 @@ header{
 }
 
 #place_titre{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-left:20px;
 }
 
@@ -35,8 +38,18 @@ h1{
     font-style:normal;
     font-size: 50px;
 }
+#h1com{
+    font-style:normal;
+    font-size: 30px;
+}
 
-#logo p{
+#place_login{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right:20px;
+    margin-left:20px;
 }
 
 ul{
