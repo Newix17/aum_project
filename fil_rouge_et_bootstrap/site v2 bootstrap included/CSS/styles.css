@@ -1,0 +1,119 @@
+html{
+    background-image: url(../medias/images/fond.jpg);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/*==========================
+Haut de page
+==========================*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(250, 168, 16, 0.5);
+}
+
+#place_logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#logo{
+    height: 150px;
+    margin: 10px;
+}
+
+#place_titre{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:20px;
+}
+
+
+/*=================
+Titre
+=================*/
+h1{
+   font-style: italic; 
+   font-size: 50px;
+}
+#h1_thin{
+    font-style:normal;
+    font-size: 45px;
+}
+#h1com{
+    font-style:normal;
+    font-size: 30px;
+}
+
+#place_login{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+/* ============================
+Début du menu <nav> ID="menu"
+===============================*/
+
+#menu{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 168, 16, 0.5);
+    margin-top:2px;
+    height: 30px;
+    align-content: center;
+}
+
+a{
+    color:white;
+}
+
+/*================================
+Fin du menu
+==================================*/
+/*Mise en place des éléments basiques de la section*/
+
+section{
+    display:grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: auto; 
+}
+
+aside, main, #place_news, footer{
+    background-color: rgb(250, 168, 16, 0.5);
+    margin:2px;
+}
+ 
+#aside_right{
+    grid-column: 3;
+    grid-row: 1 /span 2;
+}
+
+
+/*==================================
+MAIN
+===================================*/
+
+/*#main{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}*/
+
+
+/*===================================
+Footer
+=====================================*/
+
+footer ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
