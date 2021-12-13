@@ -1,3 +1,7 @@
 body{
-    background-image: url(../Medias/fond.jpg);
+    background-image: url(../Medias/img/fond.jpg);
+}
+
+#place_logo{
+    /*background-color:rgb(0,0,0,0)*/
 }
