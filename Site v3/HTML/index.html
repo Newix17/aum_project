@@ -4,10 +4,15 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../CSS/bootstrap.min.css">
         <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
         <title>Accueil</title>
     </head>
     <body class="container-fluid">
-        <div class="row"><!--premiere ligne logo/titre/connexion-->
+
+        <!--premiere ligne logo/titre/connexion
+        ========================================================-->
+        
+        <div class="row">
             <div class="col-2 py-2" id="place_logo">
                 <div class="row"><!--1ere case pour le logo-->
                     <div class="offset-2 col-8">
@@ -15,21 +20,31 @@
                     </div>
                 </div>
             </div>
-                <div class="col-3 card py-2">
-                    <p>Adopteunmate.com</p>
+                <div class="col-3 card py-2 align-items-center justify-content-center"><!--Titre-->
+                    <h2 id="title">Adopte<span id="title_un">un</span>mate<span id="title_point_com">.com</span></h2>
                 </div>
                 <div class="col-5 card py-2">
                     <p>Parce que jouer avec des mates toxiques, y en a marre !</p><br>
                     <p>Inscris-toi pour rencontrer et jouer avec des joueurs et joueuses chill</p>
                 </div>
-            <div class="col-2 card py-2">
+            <div class="col-2">
                 <div class="row"><!--Boutons de connexion-->
-                    <div class="col-12 card py-2">Se connecter</div>
-                    <div class="col-12 card py-2">Créer un compte</div>
-                    <div class="col-12 card py-2">Se déconnecter</div>
+                    <div class="col-12 py-2">
+                        <button type="button" class="btn btn-warning">Se connecter</button> 
+                    </div>
+                    <div class="col-12 py-2">
+                        <button type="button" class="btn btn-warning">Créer un compte</button>
+                    </div>
+                    <div class="col-12 py-2">
+                        <button type="button" class="btn btn-warning">Se déconnecter</button>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!--===============================================================
+        Seconde row-->
+
         <div class="row"><!--Seconde ligne MENU-->
             <div class="offset-1 col-1 card py-2">1er Bouton</div>
             <div class="offset-1 col-1 card py-2">2ème Bouton</div>
