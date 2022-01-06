@@ -24,8 +24,8 @@
                     <h2 id="title">Adopte<span id="title_un">un</span>mate<span id="title_point_com">.com</span></h2>
                 </div>
                 <div class="col-5 card py-2"><!--Texte présentation-->
-                    <h5 class="slogan"><br>Parce que jouer avec des mates toxiques, y en a marre !</h5><br>
-                    <h5 class="slogan">Inscris-toi pour rencontrer et jouer avec des joueurs et joueuses chill</h5>
+                    <h5 class="txt_center"><br>Parce que jouer avec des mates toxiques, y en a marre !</h5><br>
+                    <h5 class="txt_center">Inscris-toi pour rencontrer et jouer avec des joueurs et joueuses chill</h5>
                 </div>
             <div class="col-2">
                 <div class="row"><!--Boutons de connexion-->
@@ -46,28 +46,32 @@
         Seconde row-->
 
         <div class="row"><!--Seconde ligne MENU-->
-            <div class="offset-1 col-1 card py-2">
-                <button type="button" class="btn btn-warning">Liste des Jeux</button>
+            <div class="offset-1 col-1 card py-1">
+                <button type="button" class="btn btn-warning" id="btn_go">Les Jeux</button>
             </div>
-            <div class="offset-1 col-1 card py-2">
-                <button type="button" class="btn btn-warning">Best Mates</button>
+            <div class="offset-1 col-1 card py-1">
+                <button type="button" class="btn btn-warning" id="btn_go">Best Mates</button>
             </div>
-            <div class="offset-1 col-2 card py-2">
+            <div class="col-4 card py-1">
                 <form method="POST">
                     <label for="recherche">Rechercher un jeu :</label>
                     <input type="search" name="recherche" placeholder="Quel jeu wesh?"/>
-                    <button type="submit" class="btn btn-warning">go</button>
+                    <button type="submit" class="btn btn-warning" id="btn_go">go</button>
                 </form> 
             </div>
-            <div class="offset-1 col-1 card py-2">
-                <button type="button" class="btn btn-warning">Mes Notes</button>
+            <div class="col-1 card py-1">
+                <button type="button" class="btn btn-warning" id="btn_go">Mes Notes</button>
             </div>
-            <div class="offset-1 col-1 card py-2">
-                <button type="button" class="btn btn-warning">Adopte des News</button>
+            <div class="offset-1 col-1 card py-1">
+                <button type="button" class="btn btn-warning" id="btn_go">News</button>
             </div>
         </div>
         <div class="row"><!--Troisième ligne profil/news/top_mates-->
-            <div class="col-2 card py-2">profil</div>
+            <div class="col-2 card py-2">
+                <img src="../Medias/img/profil.jpg" id="pp">
+                <p class="txt_center">Pseudo_joueur</p>
+                <a href="account.html" class="txt_center">Editer mon profil</a>
+            </div>
             <div class="col-4 card py-2">News-Events</div>
             <div class="col-4 card py-2">Fil-actu</div>
             <div class="col-2 card py-2">Top_mates</div>
