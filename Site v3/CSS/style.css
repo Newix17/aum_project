@@ -34,7 +34,11 @@ h2{
 }
 
 #pp{
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 50%;
+    align-self: center;
+}
+
+.jacket{
+    max-width:80%;
     align-self: center;
 }
