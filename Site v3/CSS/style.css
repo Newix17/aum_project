@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Medias/img/fond.jpg);
+    background-image: url(../Medias/img/fond70alpha.png);
 }
 
 /* montserrat-regular - latin */
@@ -12,6 +12,11 @@ body{
 h2{
     color:white;
 }
+
+.slogan{
+    text-align: center;
+}
+
 
 #title_point_com{
     font-size: 0.6em;

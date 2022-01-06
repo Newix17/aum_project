@@ -23,9 +23,9 @@
                 <div class="col-3 card align-items-center justify-content-center"><!--Titre-->
                     <h2 id="title">Adopte<span id="title_un">un</span>mate<span id="title_point_com">.com</span></h2>
                 </div>
-                <div class="col-5 card py-2">
-                    <p>Parce que jouer avec des mates toxiques, y en a marre !</p><br>
-                    <p>Inscris-toi pour rencontrer et jouer avec des joueurs et joueuses chill</p>
+                <div class="col-5 card py-2"><!--Texte présentation-->
+                    <h5 class="slogan"><br>Parce que jouer avec des mates toxiques, y en a marre !</h5><br>
+                    <h5 class="slogan">Inscris-toi pour rencontrer et jouer avec des joueurs et joueuses chill</h5>
                 </div>
             <div class="col-2">
                 <div class="row"><!--Boutons de connexion-->
@@ -46,11 +46,25 @@
         Seconde row-->
 
         <div class="row"><!--Seconde ligne MENU-->
-            <div class="offset-1 col-1 card py-2">1er Bouton</div>
-            <div class="offset-1 col-1 card py-2">2ème Bouton</div>
-            <div class="offset-1 col-2 card py-2">Zone de recherche</div>
-            <div class="offset-1 col-1 card py-2">3ème Bouton</div>
-            <div class="offset-1 col-1 card py-2">4ème Bouton</div>
+            <div class="offset-1 col-1 card py-2">
+                <button type="button" class="btn btn-warning">Liste des Jeux</button>
+            </div>
+            <div class="offset-1 col-1 card py-2">
+                <button type="button" class="btn btn-warning">Best Mates</button>
+            </div>
+            <div class="offset-1 col-2 card py-2">
+                <form method="POST">
+                    <label for="recherche">Rechercher un jeu :</label>
+                    <input type="search" name="recherche" placeholder="Quel jeu wesh?"/>
+                    <button type="submit" class="btn btn-warning">go</button>
+                </form> 
+            </div>
+            <div class="offset-1 col-1 card py-2">
+                <button type="button" class="btn btn-warning">Mes Notes</button>
+            </div>
+            <div class="offset-1 col-1 card py-2">
+                <button type="button" class="btn btn-warning">Adopte des News</button>
+            </div>
         </div>
         <div class="row"><!--Troisième ligne profil/news/top_mates-->
             <div class="col-2 card py-2">profil</div>
